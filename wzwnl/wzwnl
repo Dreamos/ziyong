@@ -1,0 +1,22 @@
+/**************************
+ *  * @Author: LLC
+ * @LastMod: 2026-06-19
+ *
+ * 
+
+\w\z\w\n\l\\钻\石\v\i\p\
+
+
+使用方法：
+1、QX > 右下角风车 > 重写 > 规则资源 > 引用以下脚本 > 打开资源解析器
+https://raw.githubusercontent.com/Dreamos/ziyong/refs/heads/main/wzwnl/wzwnl
+
+********************************
+
+[mitm]
+hostname =*.iwzwh.com
+
+[rewrite_local]
+https:\/\/.+\.iwzwh\.com\/api url script-response-body https://raw.githubusercontent.com/Dreamos/ziyong/refs/heads/main/wzwnl/wzwnlcj.js
+
+ ***************/
