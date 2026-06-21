@@ -30,7 +30,7 @@ function removeExtraSpaces(jsonString) {
 
 // 判断是否为匹配项
 if (
-  /^https:\/\/.+\.xiaonandou\.com\.cn\/moria\/user\/userVipinfo/.test(requestUrl)
+  /^https:\/\/.+\.xiaonandou\.com\.cn\/moria\/user\/userVipInfo/.test(requestUrl)
 ) {
 
   obj.data.vipDeadline = "2222\/02\/02";
