@@ -4,8 +4,7 @@ let status = isJSON($response.body);
 var obj = status
   ? JSON.parse(
       removeExtraSpaces($response.body)
-        .replace(/"status":\w+/g, '"status":1')
-        .replace(/"isSvip:-\d+/g, '"isSVip":1')
+        .replace(/"isSvip":\w+/g, '"isSvip":1')
         .replace(/"isVip:-\d+/g, '"isVip":1')
     )
   : $response.body;
@@ -31,7 +30,7 @@ function removeExtraSpaces(jsonString) {
 
 // 判断是否为匹配项
 if (
-  /^https:\/\/.+\.xiaonandou\.com\.cn\moria\/user\/userVipinfo/.test(requestUrl)
+  /^https:\/\/.+\.xiaonandou\.com\.cn\/moria\/user\/userVipinfo/.test(requestUrl)
 ) {
 
   obj.data.vipDeadline = "2222\ /02\ /02 ";
