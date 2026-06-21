@@ -17,6 +17,6 @@ https://raw.githubusercontent.com/Dreamos/ziyong/refs/heads/main/xnd/xnd
 hostname =*.xiaonandou.com.cn
 
 [rewrite_local]
-https:\/\/.+\.xiaonandou\.com\.cn\ /moria url script-response-body https://raw.githubusercontent.com/Dreamos/ziyong/refs/heads/main/xnd/xndcj.js
+https:\/\/.+\.xiaonandou\.com\.cn\/moria url script-response-body https://raw.githubusercontent.com/Dreamos/ziyong/refs/heads/main/xnd/xndcj.js
 
  ***************/
