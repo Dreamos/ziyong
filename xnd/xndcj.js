@@ -33,7 +33,7 @@ if (
   /^https:\/\/.+\.xiaonandou\.com\.cn\/moria\/user\/userVipinfo/.test(requestUrl)
 ) {
 
-  obj.data.vipDeadline = "2222\ /02\ /02 ";
+  obj.data.vipDeadline = "2222\/02\/02";
 }
 // 重写数据
 $done({ body: status ? JSON.stringify(obj) : obj });
